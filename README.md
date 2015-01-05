@@ -16,21 +16,18 @@ Simple &amp; lightweight javascript timer
 
 3. Call the timer.start(duration) function.
 
-4. Every seconds, a call to instance.callback will be made, with a boolean in parameter which if the timer reached the end.
+4. Every seconds, a call to instance.callback will be made, with a boolean in parameter which indicates if the timer reached the end.
 
 
 ## Usages
 
+```javascript
 start(duration) : start the timer for 'duration' seconds
-
 togglePause() : pause or resume the timer
-
 stop() : stop the timer
-
 remaining() : give remaining seconds
-
 elapsed() : give elapsed seconds
-
+```
 
 ## Copyright
 
