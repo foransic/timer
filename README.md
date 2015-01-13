@@ -21,13 +21,16 @@ Simple &amp; lightweight javascript timer
 
 ## Usages
 
-```javascript
-start(duration) : start the timer for 'duration' seconds
-togglePause() : pause or resume the timer
-stop() : stop the timer
-remaining() : give remaining seconds
-elapsed() : give elapsed seconds
-```
+`timer.start(duration)` start the timer for 'duration' seconds
+
+`timer.togglePause()` pause or resume the timer
+
+`timer.stop()` stop the timer
+
+`timer.remaining()` give remaining seconds
+
+`timer.elapsed()` give elapsed seconds
+
 
 ## Copyright
 
